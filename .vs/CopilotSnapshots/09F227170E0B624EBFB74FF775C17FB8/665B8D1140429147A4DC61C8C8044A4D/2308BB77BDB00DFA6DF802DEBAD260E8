@@ -1,4 +1,4 @@
-# :wave: The Basics of GitHub 
+﻿# :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
 
@@ -133,38 +133,13 @@ To learn more about repositories and READMEs, read [Creating, Cloning, and Archi
 - Learn more: [About Branches](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches).
 
 ### Forks
-
-- What is a fork?
-  - A fork is a personal copy of someone else's repository on your GitHub account.
-- Why fork?
-  - Experiment, fix bugs, or add features without changing the original project.
-- Typical workflow
-  - Click "Fork" on the upstream repository (GitHub website).
-  - Clone your fork: `git clone <your-fork-url>`
-  - Make changes, commit, and push to your fork.
-  - Open a pull request from your fork to the original repository to propose changes.
-- Tips
-  - Keep your fork up to date with the upstream repo (`git remote add upstream <url>` then `git fetch upstream` / `git merge` or `git rebase`).
-  - Use branches in your fork for each change to keep work organized.
-- Learn more: [Fork a repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
+A fork is another way to copy a repository, but is usually used when you want to contribute to someone else’s project. Forking a repository allows you to freely experiment with changes without affecting the original project and is very popular when contributing to open source software projects!
+To learn more about forking, read ["Fork a repo"](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
 
 ### Pull requests
+When working with branches, you can use a pull request to tell others about the changes you want to make and ask for their feedback. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add more changes if need be. You can add specific people as reviewers of your pull request which shows you want their feedback on your changes! Once a pull request is ready-to-go, it can be merged into your main branch.
+To learn more about pull requests, read ["About Pull Requests"](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests). 
 
-- What is a pull request (PR)?
-  - A PR is a request to merge changes from one branch (or fork) into another and starts a discussion and review process on GitHub.
-- Why use PRs?
-  - Get feedback, run automated checks (CI), and review changes before they become part of `main`.
-- How to open a PR
-  - Push your branch or fork to GitHub, then click "Compare & pull request" (or open a new PR) and add a description and reviewers.
-- Review and iterate
-  - Reviewers can comment or request changes. Push follow-up commits to the same branch to address feedback.
-- Merge and close
-  - After approval and passing checks, merge the PR into the target branch and delete the feature branch if desired.
-- Tips
-  - Write a clear PR title and description, link related issues, and keep changes focused to make review easier.
-- Learn more: [About Pull Requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
-
-  [![What is a pull request? (short intro)](https://img.youtube.com/vi/nCKdihvneS0/hqdefault.jpg)](https://www.youtube.com/watch?v=nCKdihvneS0&list=PL0lo9MOBetEGWDtUgEsQoW0lgwytsZDvu&index=3)
 
 ### Issues
 Issues are a way to track enhancements, tasks, or bugs for your work on GitHub. Issues are a great way to keep track of all the tasks you want to work on for your project and let others know what you plan to work on. You can also use issues to tell a favorite open source project about a bug you found or a feature you think would be great to add!
@@ -203,91 +178,17 @@ GitHub Explore is a great place to do just that … explore :smile: You can find
 
 You can check out the GitHub Explore website [at github.com/explore](https://github.com/explore). The more you interact with GitHub the more tailored your Explore view will be. 
 
-## 📝 Assignment
+## 📝 Optional next steps 
 
-### Creating and Submitting `STUDENT.md`
-
-Follow the steps below carefully. This file is your submission for this assignment.
-
-1. **Step 1: Create a New Branch**
-   - You must complete your work on a new branch.
-   - Open your repository in Visual Studio.
-   - Open the Git menu → Select **New Branch**.
-   - Name your branch using this format: `firstname-lastname` (example: `scott-hadzik`).
-   - Make sure the new branch is checked out (active).
-
-2. **Step 2: Create the `STUDENT.md` File**
-   - In Solution Explorer, right-click the project folder → **Add → New Item**.
-   - Choose **Text File** and name the file exactly: `STUDENT.md`.
-   - ⚠️ The file name must be spelled and capitalized exactly as shown.
-   - Click **Add**.
-
-3. **Step 3: Add the Required Content**
-   - Open `STUDENT.md` and paste the following content:
-
-     ```markdown
-     # Student Information
-     
-     - Name:
-     - WSU Email:
-     
-     ## Reflection
-     
-     - One thing I learned about Git or GitHub:
-     - One thing that is still confusing:
-     ```
-   - Replace the placeholders with your own information. Do not leave any blank fields.
-   - Write complete sentences for the reflection items.
-
-4. **Step 4: Save and Stage the File**
-   - Save `STUDENT.md`.
-   - Open the Git Changes window in Visual Studio.
-   - You should see `STUDENT.md` listed as a new file. Make sure it is staged (checked).
-
-5. **Step 5: Commit Your Changes**
-   - In the Git Changes window, enter a commit message such as:
-
-     ```
-     Add STUDENT.md with student information
-     ```
-   - Click **Commit All**.
-
-6. **Step 6: Push Your Branch to GitHub**
-   - After committing, click **Push** in the Git Changes window.
-   - Confirm that your branch appears on GitHub.
-
-7. **Step 7: Open a Pull Request (This Is Your Submission)**
-   - Go to your repository on GitHub in a web browser.
-   - You should see a banner offering to create a Pull Request. Click **Compare & pull request**.
-   - Set:
-     - Base branch: `main`
-     - Compare branch: `firstname-lastname`
-   - Title your Pull Request using this format:
-
-     ```
-     Firstname Lastname – GitHub Introduction
-     ```
-   - Review the checklist and click **Create Pull Request**.
-
-8. **Step 8: Verify Your Submission**
-   - Verify that `STUDENT.md` appears in the **Files changed** tab of your Pull Request.
-   - Verify your Pull Request shows green checkmarks for all automated checks.
-   - Ensure the Pull Request is open (do not close it yourself).
-
-Important Notes
-
-- Do **not** edit `README.md`.
-- Do **not** merge your own Pull Request.
-- If an automated check fails:
-  - Fix the issue in Visual Studio
-  - Commit and push again — the checks will rerun automatically
-
-What to Submit in Canvas
-
-- Submit the URL of your Pull Request.
+* Open a pull request and let your teacher know that you’ve finished this course.  
+* Create a new markdown file in this repository. Let them know what you learned and what you are still confused about! Experiment with different styles!
+* Create your profile README. Let the world know a little bit more about you! What are you interested in learning? What are you working on? What's your favorite hobby? Learn more about creating your profile README in the document, ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
+* Go to your user dashboard and create a new repository. Experiment with the features within that repository to familiarize yourself with them. 
+* [Let us know what you liked or didn’t like about the content of this course](https://support.github.com/contact/education). What would you like to see more of? What would be interesting or helpful to your learning journey? 
 
 ## 📚  Resources 
 
+  [![A short video explaining what GitHub is](https://img.youtube.com/vi/w3jLJU7DT5E/hqdefault.jpg)](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be)
 * [A long video explaining what Git and GitHub are](https://www.youtube.com/watch?v=NUELGzIHT-I)
 
   [![A long video explaining what Git and GitHub are](https://img.youtube.com/vi/NUELGzIHT-I/hqdefault.jpg)](https://www.youtube.com/watch?v=NUELGzIHT-I)

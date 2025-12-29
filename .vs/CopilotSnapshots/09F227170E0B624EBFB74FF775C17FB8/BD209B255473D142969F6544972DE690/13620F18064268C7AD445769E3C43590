@@ -1,4 +1,4 @@
-# :wave: The Basics of GitHub 
+﻿# :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
 
@@ -205,89 +205,11 @@ You can check out the GitHub Explore website [at github.com/explore](https://git
 
 ## 📝 Assignment
 
-### Creating and Submitting `STUDENT.md`
 
-Follow the steps below carefully. This file is your submission for this assignment.
-
-1. **Step 1: Create a New Branch**
-   - You must complete your work on a new branch.
-   - Open your repository in Visual Studio.
-   - Open the Git menu → Select **New Branch**.
-   - Name your branch using this format: `firstname-lastname` (example: `scott-hadzik`).
-   - Make sure the new branch is checked out (active).
-
-2. **Step 2: Create the `STUDENT.md` File**
-   - In Solution Explorer, right-click the project folder → **Add → New Item**.
-   - Choose **Text File** and name the file exactly: `STUDENT.md`.
-   - ⚠️ The file name must be spelled and capitalized exactly as shown.
-   - Click **Add**.
-
-3. **Step 3: Add the Required Content**
-   - Open `STUDENT.md` and paste the following content:
-
-     ```markdown
-     # Student Information
-     
-     - Name:
-     - WSU Email:
-     
-     ## Reflection
-     
-     - One thing I learned about Git or GitHub:
-     - One thing that is still confusing:
-     ```
-   - Replace the placeholders with your own information. Do not leave any blank fields.
-   - Write complete sentences for the reflection items.
-
-4. **Step 4: Save and Stage the File**
-   - Save `STUDENT.md`.
-   - Open the Git Changes window in Visual Studio.
-   - You should see `STUDENT.md` listed as a new file. Make sure it is staged (checked).
-
-5. **Step 5: Commit Your Changes**
-   - In the Git Changes window, enter a commit message such as:
-
-     ```
-     Add STUDENT.md with student information
-     ```
-   - Click **Commit All**.
-
-6. **Step 6: Push Your Branch to GitHub**
-   - After committing, click **Push** in the Git Changes window.
-   - Confirm that your branch appears on GitHub.
-
-7. **Step 7: Open a Pull Request (This Is Your Submission)**
-   - Go to your repository on GitHub in a web browser.
-   - You should see a banner offering to create a Pull Request. Click **Compare & pull request**.
-   - Set:
-     - Base branch: `main`
-     - Compare branch: `firstname-lastname`
-   - Title your Pull Request using this format:
-
-     ```
-     Firstname Lastname – GitHub Introduction
-     ```
-   - Review the checklist and click **Create Pull Request**.
-
-8. **Step 8: Verify Your Submission**
-   - Verify that `STUDENT.md` appears in the **Files changed** tab of your Pull Request.
-   - Verify your Pull Request shows green checkmarks for all automated checks.
-   - Ensure the Pull Request is open (do not close it yourself).
-
-Important Notes
-
-- Do **not** edit `README.md`.
-- Do **not** merge your own Pull Request.
-- If an automated check fails:
-  - Fix the issue in Visual Studio
-  - Commit and push again — the checks will rerun automatically
-
-What to Submit in Canvas
-
-- Submit the URL of your Pull Request.
 
 ## 📚  Resources 
 
+  [![A short video explaining what GitHub is](https://img.youtube.com/vi/w3jLJU7DT5E/hqdefault.jpg)](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be)
 * [A long video explaining what Git and GitHub are](https://www.youtube.com/watch?v=NUELGzIHT-I)
 
   [![A long video explaining what Git and GitHub are](https://img.youtube.com/vi/NUELGzIHT-I/hqdefault.jpg)](https://www.youtube.com/watch?v=NUELGzIHT-I)
