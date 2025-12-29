@@ -1,0 +1,87 @@
+# Visual Studio - common ignores
+# Generated for typical .NET / Visual Studio projects
+
+## Build folders
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio working files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+*.dotCover
+_ReSharper*/
+*.ReSharper*
+*.DotSettings.user
+
+## Visual Studio Code
+.vscode/
+
+## NuGet
+packages/
+*.nupkg
+.nuget/
+project.lock.json
+project.fragment.lock.json
+
+## MSBuild / Visual Studio temporary files
+*.tmp
+*.temp
+*.log
+*.vspscc
+*.vssscc
+
+## IIS Express
+/.vs/config/applicationhost.config
+
+## Publish outputs
+bin/**/publish/
+PublishProfiles/
+*.Publish.xml
+
+## Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+## Entity Framework / local DB
+*.mdf
+*.ldf
+*.db
+*.sqlite
+
+## Package managers
+node_modules/
+bower_components/
+
+## JetBrains Rider caches
+.idea/
+.idea/*
+*.rider/
+
+## Azure
+*.azurePubxml
+
+## Others
+*.class
+*.psess
+*.vsp
+*.pdb
+*.cache
+*.bak
+*.orig
+*.pidb
+
+# Ignore compiled binaries (optional, build folders already include these)
+# *.dll
+# *.exe
+
+# End of .gitignore
