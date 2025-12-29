@@ -1,4 +1,4 @@
-# :wave: The Basics of GitHub 
+﻿# :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
 
@@ -16,62 +16,42 @@ GitHub is home to some of the most advanced technologies in the world. Whether y
 
 The GitHub flow is a lightweight, branch-based workflow that helps you collaborate safely and deploy often. Below are the basic steps and a simple visual to make the process easier to follow.
 
-### GitHub flow — beginner steps (no branch required)
-If you are new to Git and GitHub and are working in your own repository (for example a classroom assignment or a fork), you can follow this simpler flow without creating branches.
-
-1. Clone your repository
-   - `git clone <repo-url>`
-2. Make changes in the default branch (`main`)
-   - Edit files locally using your editor.
-3. Commit your changes locally
-   - `git add .` then `git commit -m "Short, clear message"`
-4. Push your changes to GitHub
-   - `git push` (this uploads your `main` changes to your GitHub repo)
-5. Submit or share your work
-   - If your assignment requires a pull request, open a PR from your repository's `main` to the classroom/upstream repo. Otherwise, notify your instructor or share the repo link.
-6. Review and update if needed
-   - If feedback arrives, make updates locally, commit, and push — GitHub will show the new commits on the same PR or in your repo.
+### GitHub flow — quick steps
+1. Create a branch for your work
+   - Use a descriptive name, for example `feature/login` or `fix/typo`.
+2. Make changes locally and commit often
+   - Write small, focused commits with clear messages.
+3. Push the branch to GitHub
+   - `git push -u origin your-branch`
+4. Open a pull request (PR)
+   - Explain the change, link any related issue, and request reviewers.
+5. Review and iterate
+   - Address feedback, push follow-up commits to the same branch.
+6. Merge when approved
+   - Merge the PR into `main` (or your default branch) after approval and passing checks.
+7. Deploy (optional)
+   - Many teams deploy directly from `main` or use release branches/CI pipelines.
 
 ### Simple visual (text flow)
 
-`local` -> `main` (edit) -> `push` -> `submit/PR` -> `review` -> `merge/feedback`
+local working copy -> `feature` branch -> push -> Pull Request -> review -> merge -> `main` -> deploy
 
-### Tips and checklist for beginners
-- Work on `main` only if you own the repository (classroom repos or forks). Avoid editing `main` on shared team repos.
-- Keep commits small and clear.
-- Add a short description when submitting or opening a PR so reviewers know what changed.
-- Run any tests or checks you can before pushing.
-- When you feel comfortable, try the branch-based flow (recommended for team projects).
+Or as an arrow diagram:
 
-This simplified flow makes it easier to get started while still encouraging good commit and submission habits.
+`local` -> `feature-branch` -> `origin/feature-branch` -> `pull request` -> `review & approve` -> `merge into main` -> `deploy`
+
+### Tips and checklist
+- Start each task on a new branch to keep work isolated.
+- Keep commits small and focused.
+- Add a meaningful PR description and link related issues.
+- Run tests or checks before requesting review.
+- Prefer fast, iterative review cycles — fix with additional commits instead of large rewrites.
+
+This flow minimizes the risk of breaking `main` while making collaboration and review straightforward.
 
 ### Repositories
 
-### What is a repository?
-- A repository is your project folder on GitHub. It stores files, the full commit history, issues, pull requests, and other project metadata.
-
-### Who uses repositories?
-- You can work alone or invite collaborators. Classroom assignments and forks are common for students; teams usually use shared org repos.
-
-### How to access a repository
-- Use the GitHub website to browse files and history, or `git clone <repo-url>` to work locally. Your [GitHub dashboard](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/about-your-personal-dashboard) helps you find your repos.
-
-### What belongs in a repository?
-- Source code, documentation, tests, configuration, and a `README` that explains the project.
-
-### README guidance (what to include)
-- Short overview: What the project is and why it exists.
-- Getting started: How to clone, install, and run the project (example commands).
-- Usage: Brief examples or screenshots.
-- Contributing (optional): How others can help or submit changes.
-- License and contact info.
-
-### Quick tips
-- Choose a clear repository name.
-- Keep the `README` up to date with basic setup steps.
-- Add small examples or commands so others can run the project quickly.
-
-To learn more about repositories and READMEs, read [Creating, Cloning, and Archiving Repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories) and [About READMEs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
+A repository is where your project work happens--think of it as your project folder. It contains all of your project’s files and revision history.  You can work within a repository alone or invite others to collaborate with you on those files.
 
 ### Cloning a Repository
 
@@ -172,10 +152,7 @@ You can check out the GitHub Explore website [at github.com/explore](https://git
 * [Let us know what you liked or didn’t like about the content of this course](https://support.github.com/contact/education). What would you like to see more of? What would be interesting or helpful to your learning journey? 
 
 ## 📚  Resources 
-* [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be)
-* [A long video explaining what Git and GitHub are](https://www.youtube.com/watch?v=NUELGzIHT-I)
-
-  [![A long video explaining what Git and GitHub are](https://img.youtube.com/vi/NUELGzIHT-I/hqdefault.jpg)](https://www.youtube.com/watch?v=NUELGzIHT-I)
+* [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be) 
 * [Git and GitHub learning resources](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources) 
 * [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
 * [How to use GitHub branches](https://www.youtube.com/watch?v=H5GJfcp3p4Q&feature=youtu.be)

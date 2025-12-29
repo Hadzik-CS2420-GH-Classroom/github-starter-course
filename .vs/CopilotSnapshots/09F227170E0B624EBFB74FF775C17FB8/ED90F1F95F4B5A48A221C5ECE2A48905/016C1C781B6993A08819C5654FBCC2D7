@@ -1,4 +1,4 @@
-# :wave: The Basics of GitHub 
+﻿# :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
 
@@ -47,31 +47,7 @@ This simplified flow makes it easier to get started while still encouraging good
 
 ### Repositories
 
-### What is a repository?
-- A repository is your project folder on GitHub. It stores files, the full commit history, issues, pull requests, and other project metadata.
-
-### Who uses repositories?
-- You can work alone or invite collaborators. Classroom assignments and forks are common for students; teams usually use shared org repos.
-
-### How to access a repository
-- Use the GitHub website to browse files and history, or `git clone <repo-url>` to work locally. Your [GitHub dashboard](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/about-your-personal-dashboard) helps you find your repos.
-
-### What belongs in a repository?
-- Source code, documentation, tests, configuration, and a `README` that explains the project.
-
-### README guidance (what to include)
-- Short overview: What the project is and why it exists.
-- Getting started: How to clone, install, and run the project (example commands).
-- Usage: Brief examples or screenshots.
-- Contributing (optional): How others can help or submit changes.
-- License and contact info.
-
-### Quick tips
-- Choose a clear repository name.
-- Keep the `README` up to date with basic setup steps.
-- Add small examples or commands so others can run the project quickly.
-
-To learn more about repositories and READMEs, read [Creating, Cloning, and Archiving Repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories) and [About READMEs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
+A repository is where your project work happens--think of it as your project folder. It contains all of your project’s files and revision history.  You can work within a repository alone or invite others to collaborate with you on those files.
 
 ### Cloning a Repository
 
@@ -172,10 +148,7 @@ You can check out the GitHub Explore website [at github.com/explore](https://git
 * [Let us know what you liked or didn’t like about the content of this course](https://support.github.com/contact/education). What would you like to see more of? What would be interesting or helpful to your learning journey? 
 
 ## 📚  Resources 
-* [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be)
-* [A long video explaining what Git and GitHub are](https://www.youtube.com/watch?v=NUELGzIHT-I)
-
-  [![A long video explaining what Git and GitHub are](https://img.youtube.com/vi/NUELGzIHT-I/hqdefault.jpg)](https://www.youtube.com/watch?v=NUELGzIHT-I)
+* [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be) 
 * [Git and GitHub learning resources](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources) 
 * [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
 * [How to use GitHub branches](https://www.youtube.com/watch?v=H5GJfcp3p4Q&feature=youtu.be)
