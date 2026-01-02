@@ -1,17 +1,14 @@
 # :wave: The Basics of GitHub 
 
+
 ## 🤓 Course overview and learning outcomes 
 
 The goal of this course is to give you a brief introduction to GitHub. We’ll also provide you with materials for further learning and a few ideas to get you started on our platform. 🚀
 * [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be)
 
-## :octocat: Git and GitHub
+## What is Git?
 
-Git is a **distributed Version Control System (VCS)**, which means it is a useful tool for easily tracking changes to your code, collaborating, and sharing. With Git you can track the changes you make to your project so you always have a record of what you’ve worked on and can easily revert back to an older version if need be. It also makes working with others easier—groups of people can work together on the same project and merge their changes into one final source!
-
-GitHub is a way to use the same power of Git all online with an easy-to-use interface. It’s used across the software world and beyond to collaborate and maintain the history of projects.
-
-GitHub is home to some of the most advanced technologies in the world. Whether you're visualizing data or building a new game, there's a whole community and set of tools on GitHub that can get you to the next step. This course starts with the basics of GitHub, but we'll dig into the rest later.
+Git is a distributed version control system (VCS) used to track changes to files over time. It lets you create snapshots (commits) of your project, switch between different lines of work (branches), and collaborate with others by merging changes. Git runs locally on your computer and stores the full history of your project so you can inspect, compare, and revert changes as needed.
 
 ## Installing Git and Setting Up Your Identity
 
@@ -72,47 +69,33 @@ If your name or email is incorrect, return to **Git → Settings** and update th
 You only need to set this up **once** on your computer.
 
 
+## :octocat: Git and GitHub
 
+GitHub is a way to use the same power of Git all online with an easy-to-use interface. It’s used across the software world and beyond to collaborate and maintain the history of projects.
 
+GitHub is home to some of the most advanced technologies in the world. Whether you're visualizing data or building a new game, there's a whole community and set of tools on GitHub that can get you to the next step. This course starts with the basics of GitHub, but we'll dig into the rest later.
+
+### Creating a GitHub account
+
+1. Visit https://github.com and click **Sign up**.
+2. Choose a username, enter your email, and set a strong password.
+3. Verify your email address by clicking the link GitHub sends to your inbox.
+4. (Optional but recommended) Enable two-factor authentication in **Settings → Security**.
+5. Add a profile name and avatar in **Settings → Profile** so others can recognize you.
+6. Create your first repository: click **New repository**, give it a name (e.g., `my-first-repo`), choose visibility (public/private), and click **Create repository**.
 
 
 ## :octocat: Understanding the GitHub flow 
 
 The GitHub flow is a lightweight, branch-based workflow that helps you collaborate safely and deploy often. Below are the basic steps and a simple visual to make the process easier to follow.
 
-### GitHub flow — beginner steps (no branch required)
-If you are new to Git and GitHub and are working in your own repository (for example a classroom assignment or a fork), you can follow this simpler flow without creating branches.
-
-1. Clone your repository
-   - `git clone <repo-url>`
-2. Make changes in the default branch (`main`)
-   - Edit files locally using your editor.
-3. Commit your changes locally
-   - `git add .` then `git commit -m "Short, clear message"`
-4. Push your changes to GitHub
-   - `git push` (this uploads your `main` changes to your GitHub repo)
-5. Submit or share your work
-   - If your assignment requires a pull request, open a PR from your repository's `main` to the classroom/upstream repo. Otherwise, notify your instructor or share the repo link.
-6. Review and update if needed
-   - If feedback arrives, make updates locally, commit, and push — GitHub will show the new commits on the same PR or in your repo.
-
-### Simple visual (text flow)
-
-`local` -> `main` (edit) -> `push` -> `submit/PR` -> `review` -> `merge/feedback`
-
-### Tips and checklist for beginners
-- Work on `main` only if you own the repository (classroom repos or forks). Avoid editing `main` on shared team repos.
-- Keep commits small and clear.
-- Add a short description when submitting or opening a PR so reviewers know what changed.
-- Run any tests or checks you can before pushing.
-- When you feel comfortable, try the branch-based flow (recommended for team projects).
-
-This simplified flow makes it easier to get started while still encouraging good commit and submission habits.
+## 💻 GitHub terms to know  
 
 ### Repositories
 
 ### What is a repository?
 - A repository is your project folder on GitHub. It stores files, the full commit history, issues, pull requests, and other project metadata.
+- Add a `README` to explain what your project does, how to run it, and how others can contribute.
 
 ### Who uses repositories?
 - You can work alone or invite collaborators. Classroom assignments and forks are common for students; teams usually use shared org repos.
@@ -122,20 +105,6 @@ This simplified flow makes it easier to get started while still encouraging good
 
 ### What belongs in a repository?
 - Source code, documentation, tests, configuration, and a `README` that explains the project.
-
-### README guidance (what to include)
-- Short overview: What the project is and why it exists.
-- Getting started: How to clone, install, and run the project (example commands).
-- Usage: Brief examples or screenshots.
-- Contributing (optional): How others can help or submit changes.
-- License and contact info.
-
-### Quick tips
-- Choose a clear repository name.
-- Keep the `README` up to date with basic setup steps.
-- Add small examples or commands so others can run the project quickly.
-
-To learn more about repositories and READMEs, read [Creating, Cloning, and Archiving Repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories) and [About READMEs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
 
 ### Cloning a Repository
 
@@ -169,16 +138,21 @@ To learn more about repositories and READMEs, read [Creating, Cloning, and Archi
 
 💡 *Tip:* Small, frequent commits with clear messages make it easier to track your progress and troubleshoot issues.
 
-## 💻 GitHub terms to know 
-
-
-### Repositories
-
-- Repositories are where your project files and history live (code, issues, PRs, etc.).
-- Use your [GitHub dashboard](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/about-your-personal-dashboard) to find and manage your repos.
-- Add a `README` to explain what your project does, how to run it, and how others can contribute.
-- Classroom students often work in their own repos or forks; teams use shared organization repos.
 - Learn more: [Creating, Cloning, and Archiving Repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories) • [About READMEs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes)
+
+### README guidance (what to include)
+- Short overview: What the project is and why it exists.
+- Getting started: How to clone, install, and run the project (example commands).
+- Usage: Brief examples or screenshots.
+- Contributing (optional): How others can help or submit changes.
+- License and contact info.
+
+### Quick tips
+- Choose a clear repository name.
+- Keep the `README` up to date with basic setup steps.
+- Add small examples or commands so others can run the project quickly.
+
+To learn more about repositories and READMEs, read [Creating, Cloning, and Archiving Repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories) and [About READMEs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes). 
 
 ### Branches
 
@@ -229,22 +203,11 @@ To learn more about repositories and READMEs, read [Creating, Cloning, and Archi
 
   [![What is a pull request? (short intro)](https://img.youtube.com/vi/nCKdihvneS0/hqdefault.jpg)](https://www.youtube.com/watch?v=nCKdihvneS0&list=PL0lo9MOBetEGWDtUgEsQoW0lgwytsZDvu&index=3)
 
-### Issues
-Issues are a way to track enhancements, tasks, or bugs for your work on GitHub. Issues are a great way to keep track of all the tasks you want to work on for your project and let others know what you plan to work on. You can also use issues to tell a favorite open source project about a bug you found or a feature you think would be great to add!
-
-For larger projects, you can keep track of many issues on a project board. GitHub Projects help you organize and prioritize your work and you can read more about them [in this "About Project boards document](https://docs.github.com/en/github/managing-your-work-on-github/about-project-boards). You likely won’t need a project board for your assignments, but once you move on to even bigger projects, they’re a great way to organize your team’s work!
-You can also link together pull requests and issues to show that a fix is in progress and to automatically close the issue when someone merges the pull request.
-To learn more about issues and linking them to your pull requests, read ["About Issues"](https://docs.github.com/en/github/managing-your-work-on-github/about-issues). 
-
-### Your user profile
-
-Your profile page tells people the story of your work through the repositories you're interested in, the contributions you've made, and the conversations you've had. You can also give the world a unique view into who you are with your profile README. You can use your profile to let future employers know all about you! 
-To learn more about your user profile and adding and updating your profile README, read ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme). 
 
 ### Using markdown on GitHub 
 
 You might have noticed already, but you can add some fun styling to your issues, pull requests, and files. ["Markdown"](https://guides.github.com/features/mastering-markdown/) is an easy way to style your issues, pull requests, and files with some simple syntax. This can be helpful to organize your information and make it easier for others to read. You can also drop in gifs and images to help convey your point!
-To learn more about using GitHub’s flavor of markdown, read ["Basic Writing and Formatting Syntax"](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax). 
+To learn more about using GitHub’s flavor of markdown, read ["Basic Writing and Formatting Syntax"](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).  
 
 
 ## 📝 Assignment
