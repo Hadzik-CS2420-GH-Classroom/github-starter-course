@@ -13,6 +13,69 @@ GitHub is a way to use the same power of Git all online with an easy-to-use inte
 
 GitHub is home to some of the most advanced technologies in the world. Whether you're visualizing data or building a new game, there's a whole community and set of tools on GitHub that can get you to the next step. This course starts with the basics of GitHub, but we'll dig into the rest later.
 
+## Installing Git and Setting Up Your Identity
+
+Before you begin, Git must be installed on your computer and configured with your name and email.  
+These values are used to identify you as the author of your commits.
+
+---
+
+### Step 1: Install Git
+
+If Git is already installed, you can skip this step.
+
+1. Open **Visual Studio**.
+2. Go to **Git → Settings**.
+3. If Git is not installed, Visual Studio will prompt you to install it.
+   - Follow the on-screen instructions.
+4. Restart Visual Studio after installation is complete.
+
+> 💡 Visual Studio uses Git behind the scenes. You do not need to install Git separately unless Visual Studio prompts you to.
+
+---
+
+### Step 2: Set Your Git Username and Email
+
+Your Git username and email are attached to every commit you make.
+
+1. In **Visual Studio**, open the **Git** menu.
+2. Select **Settings**.
+3. Under **Git → Global Settings**, locate:
+   - **User Name**
+   - **Email Address**
+4. Enter:
+   - Your **full name** (first and last)
+   - Your **WSU email address**
+5. Close the Settings window — changes are saved automatically.
+
+> ⚠️ Use your real name and school email. This is how your instructor identifies your work.
+
+---
+
+### Step 3: Verify Your Settings
+
+1. Open the **Git Changes** window.
+2. Make a small test change (or wait until you commit `STUDENT.md`).
+3. After committing, check the commit details.
+4. Confirm your name and email appear correctly.
+
+If your name or email is incorrect, return to **Git → Settings** and update them before continuing.
+
+---
+
+### Why This Matters
+
+- Every commit records **who** made the change.
+- Incorrect or missing information makes grading and feedback difficult.
+- Using consistent information helps you build a professional commit history.
+
+You only need to set this up **once** on your computer.
+
+
+
+
+
+
 ## :octocat: Understanding the GitHub flow 
 
 The GitHub flow is a lightweight, branch-based workflow that helps you collaborate safely and deploy often. Below are the basic steps and a simple visual to make the process easier to follow.
