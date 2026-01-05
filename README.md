@@ -216,6 +216,19 @@ To learn more about using GitHub’s flavor of markdown, read ["Basic Writing an
 
 Follow the steps below carefully. This file is your submission for this assignment.
 
+### Step 0: Accept the Assignment and Clone the Repository
+
+1. Click the GitHub Classroom assignment link and accept the assignment.
+2. Once your repository is created, copy the repository URL.
+3. Open **Visual Studio**.
+4. Select **File → Clone Repository**.
+5. Paste the repository URL and choose a location on your computer for the local repo to be saved.
+6. Click **Clone**.
+
+You should now see the project files in **Solution Explorer**.
+
+---
+
 1. **Step 1: Create a New Branch**
    - You must complete your work on a new branch.
    - Open your repository in Visual Studio.
@@ -263,27 +276,74 @@ Follow the steps below carefully. This file is your submission for this assignme
    - After committing, click **Push** in the Git Changes window.
    - Confirm that your branch appears on GitHub.
 
-7. **Step 7: Open a Pull Request (This Is Your Submission)**
-   - Go to your repository on GitHub in a web browser.
-   - You should see a banner offering to create a Pull Request. Click **Compare & pull request**.
-   - Set:
-     - Base branch: `main`
-     - Compare branch: `firstname-lastname`
-   - Title your Pull Request using this format:
+Step 7: Open a Pull Request (This Is Your Submission)
 
-     ```
-     Firstname Lastname – GitHub Introduction
-     ```
-   - Review the checklist and click **Create Pull Request**.
+   - GitHub may not automatically show a “Create Pull Request” banner.
+If you do not see it, follow these steps:
 
-8. **Step 8: Verify Your Submission**
-   - Verify that `STUDENT.md` appears in the **Files changed** tab of your Pull Request.
-   - Verify your Pull Request shows green checkmarks for all automated checks.
-   - Ensure the Pull Request is open (do not close it yourself).
+        - Go to your repository on GitHub in a web browser.
+
+        - Click the Pull requests tab.
+
+        - Click New pull request.
+
+        - Set:
+
+            - Base branch: main
+
+            - Compare branch: firstname-lastname
+(your branch should appear on the right)
+
+        - Title your Pull Request using this format:
+
+            - Firstname Lastname – GitHub Introduction
+
+
+Review the checklist and click Create Pull Request.
+
+Step 8: Check Automated Test Results
+
+  - After opening the Pull Request, automated checks will run.
+
+  - In your Pull Request, scroll to the Checks section.
+
+  - Find STUDENT.md checks (friendly).
+
+  - Click Details.
+
+  - Look under the Run friendly checks section.
+
+  - If everything passes, you will see green checkmarks.
+
+  - If something is missing, you will see clear messages explaining what needs to be fixed.
+
+Step 9: Fix Issues and Re-run Checks (If Needed)
+
+  - If a check fails, return to Visual Studio.
+
+  - Fix the issue in STUDENT.md.
+
+  - Commit and push to the same branch.
+
+  - The automated checks will run again automatically.
+
+⚠️ Do not create a new Pull Request.
+Once a Pull Request is open, you continue using the same one.
+
+Step 10: Verify Your Submission
+
+  - Before submitting in Canvas, verify that:
+
+  - STUDENT.md appears in the Files changed tab of your Pull Request.
+
+  - All automated checks show green checkmarks.
+
+  - The Pull Request is open (do not close or merge it yourself).
+
 
 Important Notes
 
-- Do **not** edit `README.md`.
+- Do **not** edit `README.md` or any files in .github.
 - Do **not** merge your own Pull Request.
 - If an automated check fails:
   - Fix the issue in Visual Studio
