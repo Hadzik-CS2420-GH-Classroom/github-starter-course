@@ -1,0 +1,11 @@
+{
+  "assignment": {
+    "canvas_title": "💻 Assignment: Lab 0 - Introduction to Git and GitHub",
+    "points_possible": 10,
+    "due_at": "2025-01-14T23:59:00",
+    "submission_types": ["online_url"],
+    "description": "Follow the instructions in the README to create a STUDENT.md file on a new branch and open a Pull Request. Submit your Pull Request URL in Canvas.",
+    "github_classroom": true,
+    "grading_type": "points"
+  }
+}
